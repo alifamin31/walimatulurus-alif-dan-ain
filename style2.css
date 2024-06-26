@@ -1,0 +1,84 @@
+body{
+    background-color: #edebeb
+}
+
+/* .row{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} */
+
+  .bottomnav {
+    overflow: hidden;
+    /* background-color: #e4d4d4; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .contact-info{
+    /* background-color: #e4d4d4; */
+    background-color: #E7EBEB
+  }
+
+  .contactname {
+    color: #000000;
+    text-decoration: none;
+  
+  }
+  
+  .contact-icon {
+    background-image: url('phone.png');
+    v
+  }
+  .location-icon {
+    background-image: url('location.png');
+  }
+  .rsvp-icon {
+    background-image: url('invite.png');
+  }
+
+  .icon-info{
+    font-size: 1.5em;
+  }
+
+  .btn-pink{
+    /* background-color: #e4d4d4; */
+    background-color: #E7EBEB;
+  }
+
+  .btn-pink:hover{
+    background-color: #E7EBEB;
+
+  }
+
+  .btn-no-radius{
+    width: 100%;
+    border-radius: 0px;
+  }
+  .btn-right-border{
+    border-right: black 1px solid;
+  }
+
+  .countdown-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff; /* Adjust text color as needed */
+  }
+
+  .card-bg{
+    background-color: #E7EBEB;
+    border: #000000;
+  }
+
+  @media (min-width: 568px) {
+    .img-card{
+      width: 35%;
+    }
+  }
